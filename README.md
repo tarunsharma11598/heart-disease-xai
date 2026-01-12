@@ -9,12 +9,24 @@ Python, Pandas, NumPy, Scikit-learn, SHAP, Matplotlib, Seaborn
 - Logistic Regression
 - Random Forest
 
-## Explainable AI
-SHAP was used to analyze the importance of global and local features and understand how clinical features influence predictions.
+## Model Evaluation
+
+### Confusion Matrix
+![Confusion Matrix](outputs/confusion_matrix.png)
+
+The confusion matrix shows strong predictive performance with very few false negatives, which is critical in healthcare risk prediction.
+
+## Explainable AI Results
+
+### Global Feature Importance
+![SHAP Global Importance](outputs/shap_global_feature_importance.png)
+
+This plot highlights the most influential clinical features affecting heart disease predictions.
+
+### Feature Impact Distribution
+![SHAP Beeswarm](outputs/shap_summary_beeswarm.png)
+
+The beeswarm plot shows how high and low feature values increase or decrease predicted disease risk.
 
 ## How to Run
-Open the Jupyter notebook and run cells sequentially to reproduce results.
-
-## Key Results
-- Model performance evaluated using accuracy, confusion matrix, and classification report
-- Interpretable insights into important clinical risk factors
+Open the Jupyter notebook and run all cells sequentially to reproduce results.
