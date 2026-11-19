@@ -12,19 +12,19 @@ Python, Pandas, NumPy, Scikit-learn, SHAP, Matplotlib, Seaborn
 ## Model Evaluation
 
 ### Confusion Matrix
-![Confusion Matrix](output/confusion_matrix.png)
+![Confusion Matrix](output/cm.png)
 
 The confusion matrix shows strong predictive performance with very few false negatives, which is critical in healthcare risk prediction.
 
 ## Explainable AI Results
 
 ### Global Feature Importance
-![SHAP Global Importance](output/shap_global_feature_importance.png)
+![SHAP Global Importance](output/shap_glob_ft_importance.png)
 
 This plot highlights the most influential clinical features affecting heart disease predictions.
 
 ### Feature Impact Distribution
-![SHAP Beeswarm](output/shap_summary_beeswarm.png)
+![SHAP Beeswarm](output/shap_beeswarm.png)
 
 The beeswarm plot shows how high and low feature values increase or decrease predicted disease risk.
 
